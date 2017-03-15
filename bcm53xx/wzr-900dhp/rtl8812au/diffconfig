@@ -1,0 +1,67 @@
+CONFIG_TARGET_bcm53xx=y
+CONFIG_TARGET_bcm53xx_DEVICE_buffalo-wzr-900dhp=y
+CONFIG_TARGET_BOARD="bcm53xx"
+CONFIG_DRIVER_11N_SUPPORT=y
+CONFIG_PACKAGE_block-mount=y
+CONFIG_PACKAGE_ca-bundle=y
+CONFIG_PACKAGE_ca-certificates=y
+CONFIG_PACKAGE_kmod-rtl8192c-common=y
+CONFIG_PACKAGE_kmod-rtl8192cu=y
+CONFIG_PACKAGE_kmod-rtl8812au=y
+CONFIG_PACKAGE_kmod-rtlwifi=y
+CONFIG_PACKAGE_kmod-rtlwifi-usb=y
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_liblua=y
+CONFIG_PACKAGE_librt=y
+CONFIG_PACKAGE_libubus-lua=y
+CONFIG_PACKAGE_libuci-lua=y
+CONFIG_PACKAGE_libusb-1.0=y
+CONFIG_PACKAGE_lua=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-jsonc=y
+CONFIG_PACKAGE_luci-lib-nixio=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rtl8192cu-firmware=y
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
+CONFIG_PACKAGE_usbutils=y
+# CONFIG_TARGET_ramips_mt7620 is not set
+# CONFIG_TARGET_ramips_mt7621 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_11acnas is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_ac1200pro is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_dir-860l-b1 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_ew1200 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_firewrt is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_hc5962 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_mt7621 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_newifi-d1 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_pbr-m1 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_r6220 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_rb750gr3 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_re6500 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_sap-g3200u3 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_sk-wb8 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_timecloud is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_ubnt-erx is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_vr500 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_w2914nsv2 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_wf-2881 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_witi is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_wndr3700v5 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_wsr-1166 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_wsr-600 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_zbt-wg2626 is not set
+# CONFIG_TARGET_ramips_mt7621_DEVICE_zbt-wg3526 is not set
+# CONFIG_TARGET_ramips_mt7621_Default is not set
+# CONFIG_TARGET_ramips_mt7628 is not set
+# CONFIG_TARGET_ramips_mt7688 is not set
+# CONFIG_TARGET_ramips_rt288x is not set
+# CONFIG_TARGET_ramips_rt305x is not set
+# CONFIG_TARGET_ramips_rt3883 is not set
