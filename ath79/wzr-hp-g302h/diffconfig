@@ -1,6 +1,6 @@
 CONFIG_TARGET_ath79=y
 CONFIG_TARGET_ath79_generic=y
-CONFIG_TARGET_ath79_generic_DEVICE_buffalo_wzr-hp-g302h=y
+CONFIG_TARGET_ath79_generic_DEVICE_buffalo_wzr-hp-g302h-a1a0=y
 CONFIG_KERNEL_BUILD_DOMAIN="Taiha.Net"
 CONFIG_KERNEL_BUILD_USER="musashino205"
 CONFIG_LIBCURL_COOKIES=y
