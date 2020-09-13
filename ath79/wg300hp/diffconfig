@@ -11,17 +11,24 @@ CONFIG_LUCI_LANG_ja=y
 CONFIG_LUCI_SRCDIET=y
 # CONFIG_PACKAGE_ca-bundle is not set
 CONFIG_PACKAGE_cgi-io=y
+CONFIG_PACKAGE_ds-lite=y
 # CONFIG_PACKAGE_hostapd-common is not set
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 # CONFIG_PACKAGE_iw is not set
 # CONFIG_PACKAGE_iwinfo is not set
 # CONFIG_PACKAGE_kmod-ath is not set
 # CONFIG_PACKAGE_kmod-ath9k is not set
 # CONFIG_PACKAGE_kmod-cfg80211 is not set
+CONFIG_PACKAGE_kmod-ip6-tunnel=y
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+CONFIG_PACKAGE_kmod-ipt-raw=y
+CONFIG_PACKAGE_kmod-iptunnel6=y
 CONFIG_PACKAGE_kmod-ledtrig-default-on=y
 CONFIG_PACKAGE_kmod-ledtrig-heartbeat=y
 CONFIG_PACKAGE_kmod-ledtrig-netdev=y
 CONFIG_PACKAGE_kmod-ledtrig-timer=y
 # CONFIG_PACKAGE_kmod-mac80211 is not set
+CONFIG_PACKAGE_kmod-nat46=y
 CONFIG_PACKAGE_libiwinfo-lua=y
 CONFIG_PACKAGE_liblua=y
 CONFIG_PACKAGE_liblucihttp=y
@@ -46,6 +53,8 @@ CONFIG_PACKAGE_luci-mod-system=y
 CONFIG_PACKAGE_luci-proto-ipv6=y
 CONFIG_PACKAGE_luci-proto-ppp=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_map=y
+CONFIG_PACKAGE_resolveip=y
 CONFIG_PACKAGE_rpcd=y
 CONFIG_PACKAGE_rpcd-mod-file=y
 CONFIG_PACKAGE_rpcd-mod-iwinfo=y
