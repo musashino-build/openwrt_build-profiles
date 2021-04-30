@@ -1,6 +1,6 @@
 CONFIG_TARGET_realtek=y
 CONFIG_TARGET_realtek_generic=y
-CONFIG_TARGET_realtek_generic_DEVICE_panasonic_m24eg-28240k=y
+CONFIG_TARGET_realtek_generic_DEVICE_panasonic_m24eg-pn28240k=y
 # CONFIG_FEED_taiha is not set
 CONFIG_KERNEL_BUILD_DOMAIN="TAIHA.NET"
 CONFIG_KERNEL_BUILD_USER="musashino205"
