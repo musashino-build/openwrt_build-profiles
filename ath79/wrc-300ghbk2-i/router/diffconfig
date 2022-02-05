@@ -35,6 +35,7 @@ CONFIG_PACKAGE_firewall=y
 # CONFIG_PACKAGE_firewall4 is not set
 # CONFIG_PACKAGE_hostapd-common is not set
 CONFIG_PACKAGE_ip-tiny=y
+CONFIG_PACKAGE_ip6tables=y
 CONFIG_PACKAGE_ipset=y
 CONFIG_PACKAGE_iptables=y
 CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
@@ -59,17 +60,20 @@ CONFIG_PACKAGE_iptables-mod-ipopt=y
 # CONFIG_PACKAGE_kmod-crypto-seqiv is not set
 # CONFIG_PACKAGE_kmod-crypto-sha256 is not set
 CONFIG_PACKAGE_kmod-ip6-tunnel=y
+CONFIG_PACKAGE_kmod-ip6tables=y
 CONFIG_PACKAGE_kmod-ipt-conntrack=y
 CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
 CONFIG_PACKAGE_kmod-ipt-core=y
 CONFIG_PACKAGE_kmod-ipt-ipopt=y
 CONFIG_PACKAGE_kmod-ipt-ipset=y
 CONFIG_PACKAGE_kmod-ipt-nat=y
+CONFIG_PACKAGE_kmod-ipt-offload=y
 CONFIG_PACKAGE_kmod-ipt-raw=y
 CONFIG_PACKAGE_kmod-iptunnel6=y
 # CONFIG_PACKAGE_kmod-mac80211 is not set
 CONFIG_PACKAGE_kmod-nat46=y
 CONFIG_PACKAGE_kmod-nf-ipt=y
+CONFIG_PACKAGE_kmod-nf-ipt6=y
 # CONFIG_PACKAGE_kmod-nf-nat6 is not set
 # CONFIG_PACKAGE_kmod-nft-fib is not set
 # CONFIG_PACKAGE_kmod-nft-nat6 is not set
