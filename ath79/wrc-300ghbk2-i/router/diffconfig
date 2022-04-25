@@ -5,14 +5,6 @@ CONFIG_TARGET_ath79_generic_DEVICE_elecom_wrc-300ghbk2-i=y
 # CONFIG_FEED_taiha is not set
 CONFIG_KERNEL_BUILD_DOMAIN="TAIHA.NET"
 CONFIG_KERNEL_BUILD_USER="musashino205"
-CONFIG_LIBCURL_COOKIES=y
-CONFIG_LIBCURL_FILE=y
-CONFIG_LIBCURL_FTP=y
-CONFIG_LIBCURL_HTTP=y
-CONFIG_LIBCURL_NGHTTP2=y
-CONFIG_LIBCURL_NO_SMB="!"
-CONFIG_LIBCURL_PROXY=y
-CONFIG_LIBCURL_WOLFSSL=y
 CONFIG_LUCI_LANG_ja=y
 CONFIG_LUCI_SRCDIET=y
 CONFIG_OPENSSL_ENGINE=y
@@ -26,23 +18,19 @@ CONFIG_OPENSSL_WITH_PSK=y
 CONFIG_OPENSSL_WITH_SRP=y
 CONFIG_OPENSSL_WITH_TLS13=y
 CONFIG_PACKAGE_cgi-io=y
-CONFIG_PACKAGE_curl=y
 CONFIG_PACKAGE_ddns-scripts=y
 CONFIG_PACKAGE_ddns-scripts-onamae=y
 CONFIG_PACKAGE_ddns-scripts-services=y
 CONFIG_PACKAGE_ds-lite=y
-CONFIG_PACKAGE_firewall=y
-# CONFIG_PACKAGE_firewall4 is not set
 # CONFIG_PACKAGE_hostapd-common is not set
 CONFIG_PACKAGE_ip-tiny=y
-CONFIG_PACKAGE_ip6tables=y
+CONFIG_PACKAGE_ip6tables-legacy=y
 CONFIG_PACKAGE_ipset=y
-CONFIG_PACKAGE_iptables=y
+CONFIG_PACKAGE_iptables-legacy=y
 CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 CONFIG_PACKAGE_iptables-mod-ipopt=y
 # CONFIG_PACKAGE_iw is not set
 # CONFIG_PACKAGE_iwinfo is not set
-# CONFIG_PACKAGE_jansson is not set
 # CONFIG_PACKAGE_kmod-ath is not set
 # CONFIG_PACKAGE_kmod-ath9k is not set
 # CONFIG_PACKAGE_kmod-cfg80211 is not set
@@ -66,30 +54,24 @@ CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
 CONFIG_PACKAGE_kmod-ipt-core=y
 CONFIG_PACKAGE_kmod-ipt-ipopt=y
 CONFIG_PACKAGE_kmod-ipt-ipset=y
-CONFIG_PACKAGE_kmod-ipt-nat=y
-CONFIG_PACKAGE_kmod-ipt-offload=y
 CONFIG_PACKAGE_kmod-ipt-raw=y
 CONFIG_PACKAGE_kmod-iptunnel6=y
 # CONFIG_PACKAGE_kmod-mac80211 is not set
 CONFIG_PACKAGE_kmod-nat46=y
 CONFIG_PACKAGE_kmod-nf-ipt=y
 CONFIG_PACKAGE_kmod-nf-ipt6=y
-# CONFIG_PACKAGE_kmod-nf-nat6 is not set
-# CONFIG_PACKAGE_kmod-nft-fib is not set
-# CONFIG_PACKAGE_kmod-nft-nat6 is not set
-CONFIG_PACKAGE_libcurl=y
 CONFIG_PACKAGE_libip4tc=y
 CONFIG_PACKAGE_libip6tc=y
 CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libiptext=y
+CONFIG_PACKAGE_libiptext6=y
 CONFIG_PACKAGE_libiwinfo-lua=y
 CONFIG_PACKAGE_liblua=y
 CONFIG_PACKAGE_liblucihttp=y
 CONFIG_PACKAGE_liblucihttp-lua=y
-CONFIG_PACKAGE_libnghttp2=y
 CONFIG_PACKAGE_libopenssl=y
 CONFIG_PACKAGE_libopenssl-conf=y
 CONFIG_PACKAGE_libubus-lua=y
-# CONFIG_PACKAGE_libucode is not set
 CONFIG_PACKAGE_libxtables=y
 CONFIG_PACKAGE_lua=y
 CONFIG_PACKAGE_luci=y
@@ -117,7 +99,6 @@ CONFIG_PACKAGE_luci-proto-ppp=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
 CONFIG_PACKAGE_map=y
 CONFIG_PACKAGE_mwan3=y
-# CONFIG_PACKAGE_nftables-json is not set
 CONFIG_PACKAGE_openssl-util=y
 CONFIG_PACKAGE_resolveip=y
 CONFIG_PACKAGE_rpcd=y
@@ -125,9 +106,9 @@ CONFIG_PACKAGE_rpcd-mod-file=y
 CONFIG_PACKAGE_rpcd-mod-iwinfo=y
 CONFIG_PACKAGE_rpcd-mod-luci=y
 CONFIG_PACKAGE_rpcd-mod-rrdns=y
-# CONFIG_PACKAGE_ucode is not set
 CONFIG_PACKAGE_uhttpd=y
 CONFIG_PACKAGE_uhttpd-mod-ubus=y
 # CONFIG_PACKAGE_wireless-regdb is not set
 # CONFIG_PACKAGE_wpad-basic-wolfssl is not set
+CONFIG_PACKAGE_xtables-legacy=y
 # CONFIG_WPA_WOLFSSL is not set
